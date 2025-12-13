@@ -7,7 +7,7 @@ RULES_PATH = Path("rules/secret_patterns.json")
 
 
 def load_rules():
-    with open(RULES_PATH, "r") as f:
+    with open(RULES_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
