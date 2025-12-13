@@ -18,20 +18,31 @@ def scan_file(file_path):
         return []
 
     try:
-        content = file_path.read_text(encoding="utf-8", errors="ignore")
+        lines = file_path.read_text(
+            encoding="utf-8", errors="ignore"
+        ).splitlines()
     except Exception:
         return []
 
     rules = load_rules()
     findings = []
 
-    for rule in rules:
-        pattern = re.compile(rule["pattern"])
-        if pattern.search(content):
-            findings.append({
-                "file": str(file_path),
-                "rule": rule["name"],
-                "severity": rule["severity"]
-            })
+    for line_no, line in enumerate(lines, start=1):
+        for rule in rules:
+            pattern = rule.get("pattern")
+            name = rule.get("name")
+            severity = rule.get("severity")
+
+            if not pattern:
+                continue
+
+            if re.search(pattern, line):
+                findings.append({
+                    "file": str(file_path),
+                    "line": line_no,
+                    "rule": name,
+                    "severity": severity,
+                    "snippet": line.strip()
+                })
 
     return findings

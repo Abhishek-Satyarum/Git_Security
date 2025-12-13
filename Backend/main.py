@@ -13,7 +13,10 @@ def get_staged_files():
 
     files = []
     for line in result.stdout.splitlines():
-        if line.endswith(".py"):
+        if line.endswith((".py", ".js", ".ts", ".java", ".go",
+    ".cpp", ".c", ".cs", ".rb", ".php",
+    ".env", ".yaml", ".yml", ".json",
+    ".sh", ".ps1")):
             files.append(line)
 
     return files
@@ -23,7 +26,7 @@ def main():
     files = get_staged_files()
 
     if not files:
-        print("✅ No Python files staged. Commit allowed.")
+        print("✅ No files staged. Commit allowed.")
         return
 
     findings_found = False
@@ -34,9 +37,11 @@ def main():
             findings_found = True
             print("\n❌ SECRET DETECTED. COMMIT BLOCKED.\n")
             for f in findings:
-                print(f"File: {f['file']}")
-                print(f"Rule: {f['rule']}")
-                print(f"Severity: {f['severity']}")
+                print(f"File     : {f['file']}")
+                print(f"Line     : {f.get('line')}")
+                print(f"Rule     : {f['rule']}")
+                print(f"Severity : {f['severity']}")
+                print(f"Code     : {f.get('snippet')}")
                 print("-" * 40)
 
     if findings_found:
