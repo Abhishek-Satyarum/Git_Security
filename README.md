@@ -7,9 +7,9 @@ It has smart decision making program which blocks and warns the user about the A
 
 <br>
 
-## 😇 Technologies
+## 😤 Technologies
 
-BackEnd: Python
+**BackEnd**: Python
 
 Libraries used are:
 
