@@ -24,9 +24,9 @@ Also the scanner supports multiple file types by checking staged file extensions
 
 We detect secrets independent of language syntax which means we support any programming language available.
 
-GSP is lightweighted, fast, developer-friendly, and integrates directly into existing Git workflows without requiring cloud services or dashboards.
+GSP is **lightweighted, fast, developer-friendly, and integrates directly into existing Git workflows** without requiring cloud services or dashboards.
 
-IDEA: ` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at commit time `
+**IDEA**: ` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at commit time `
 
 <br>
 
@@ -43,7 +43,6 @@ IDEA: ` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at
 <br>
 
 <h1><b>🎯 Solution</b></h1>
-
 
 - Catching secrets before they enter the repository is the only reliable way to ensure they never appear in history, never replicate to other clones, and never reach external scanners.
 
@@ -76,6 +75,8 @@ IDEA: ` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at
 - We deliberately avoid detecting random strings as passwords to prevent false positives. We only flag credentials when they are contextually assigned.
 
 - Also our tool blocks commits when secrets are detected. If a developer intentionally wants to proceed, Git provides a secure override using --no-verify, ensuring accountability.
+
+- 
 
 <br>
 
