@@ -9,7 +9,7 @@ It has smart decision making program which blocks and warns the user about the A
 
 ## → Why It Matters?
 
-- Oftenly, Secrets leaks to public repositories by the developers and they can be exploited within minutes, leading to unauthorized API usage, data breaches, cloud credentials, database passwords and financial loss. Attackers, bots, and automated scanners continuously monitor platforms like GitHub and GitLab for exposed secrets.
+- Oftenly, Secrets leaks to public repositories by the developers and they can be exploited within minutes, leading to unauthorized API usage, data breaches, cloud credentials, database passwords and financial loss. Attackers, bots, and automated scanners continuously monitor platforms like [GitHub](https://github.com/) and GitLab for exposed secrets.
 
 - As we know that, [Git](https://git-scm.com/) history is immutable by design: once a secret is pushed, it is stored in every clone and mirror of the repo, backup, and cache, which makes complete removal tedious and error-prone.
 
@@ -58,7 +58,7 @@ This hook can be copied into any Git repository in seconds in your system.
 
 Steps Required:
 
-1. Open VS Code or System Terminal type "git clone https://github.com/Abhishek-Satyarum/Git_Security" in the terminal.
+1. Open [VS Code](https://code.visualstudio.com/) or System Terminal type "git clone https://github.com/Abhishek-Satyarum/Git_Security" in the terminal.
 2. Then type "cd Git_Security"
 3. And lastly "cp hooks/pre-commit .git/hooks/" 
 
