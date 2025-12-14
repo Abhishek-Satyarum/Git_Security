@@ -7,6 +7,17 @@ It has smart decision making program which blocks and warns the user about the A
 
 <br>
 
+## 😇 Technologies
+
+
+
+
+
+
+
+
+
+
 ## → Why It Matters?
 
 - Oftenly, Secrets leaks to public repositories by the developers and they can be exploited within minutes, leading to unauthorized API usage, data breaches, cloud credentials, database passwords and financial loss. Attackers, bots, and automated scanners continuously monitor platforms like [GitHub](https://github.com/) and GitLab for exposed secrets.
