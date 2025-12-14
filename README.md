@@ -5,7 +5,7 @@ Git Secret Prevention(GSP) is a pre-commit security gate that prevents developer
 It works on rule-based detection which is fast and reliable with its regex patterns. 
 It has smart decision making program which blocks and warns the user about the API Keys, tokens, private keys etc.
 
-CLI for this tool is fantastic mainly because it fits naturally into how Git and developers already work, while staying fast, simple, and secure.
+CLI for this tool is fantastic mainly because it fits naturally into how Git and developers already work, while staying fast, simple, and secure. Also it uses Standard Library Modules are built into Python and available without extra installation. 
 
 <br>
 
@@ -57,11 +57,11 @@ Libraries used are:
 
 <br>
 
-## 😁 Benefits Of Using GSP
+## 😁 Benefits Of GSP
 
 - It is a secret aware Git workflow that reduces the cognitive load on developers as they dont have to manually remember that "Not to commit this file". This tool enforces it consistently across the team.
 
-- As organisation grows larger its more and more repos with confidencial contracts, so manual control and code review cannot reliably catch every secret, but automated pre‑commit protection scales linearly without depending on reviewer vigilance.
+- As organisation grows larger as more and more repos with confidencial contracts, so manual control and code review cannot reliably catch every secret, but automated pre‑commit protection scales linearly without depending on reviewer vigilance.
 
 - Over time, this fosters a secure‑by‑default culture where developers internalize best practices (env vars, secret managers, .gitignore) because the tools repeatedly reinforce the right patterns at the moment they code.
 
