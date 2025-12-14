@@ -66,4 +66,6 @@ Steps Required:
 
 ## 🎥 Video 
 
+<br>
+
 ![Demo](https://github.com/Abhishek-Satyarum/Git_Secret_Prevention/blob/main/docs/Video%20Proof%20(2).gif)
