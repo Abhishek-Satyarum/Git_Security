@@ -19,7 +19,8 @@ It has smart decision making program which blocks and warns the user about the A
 
 <br>
 
-## → Solution
+<h1><b>Solution</b></h1>
+
 
 - Catching secrets before they enter the repository is the only reliable way to ensure they never appear in history, never replicate to other clones, and never reach external scanners.
 
