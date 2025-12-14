@@ -5,6 +5,8 @@ Git Secret Prevention(GSP) is a pre-commit security gate that prevents developer
 It works on rule-based detection which is fast and reliable with its regex patterns. 
 It has smart decision making program which blocks and warns the user about the API Keys, tokens, private keys etc.
 
+CLI for this tool is fantastic mainly because it fits naturally into how Git and developers already work, while staying fast, simple, and secure.
+
 <br>
 
 ## 😤 Technologies
