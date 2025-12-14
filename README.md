@@ -5,7 +5,7 @@ Git Secret Prevention(GSP) is a pre-commit security gate that prevents developer
 It works on rule-based detection which is fast and reliable with its regex patterns. 
 It has smart decision making program which blocks and warns the user about the API Keys, tokens, private keys etc.
 
-##→ Why It Matters?
+## → Why It Matters?
 
 - Oftenly, Secrets leaks to public repositories by the developers and they can be exploited within minutes, leading to unauthorized API usage, data breaches, cloud credentials, database passwords and financial loss. Attackers, bots, and automated scanners continuously monitor platforms like GitHub and GitLab for exposed secrets.
 
@@ -15,7 +15,7 @@ It has smart decision making program which blocks and warns the user about the A
 
 - If the repo is public or briefly made public, scanning services and mirrors may already have captured the secret, so even rewriting history cannot “un-leak” it.
 
-##→ Solution
+## → Solution
 
 - Catching secrets before they enter the repository is the only reliable way to ensure they never appear in history, never replicate to other clones, and never reach external scanners.
 
@@ -23,7 +23,7 @@ It has smart decision making program which blocks and warns the user about the A
 
 - GSP shifts security from reactive firefighting (rotate keys, investigate logs, notify users) to proactive hygiene that quietly protects every commit, every day, with almost no friction.
 
-##→ Benefits Of Using GSP
+## → Benefits Of Using GSP
 
 - It is a secret aware Git workflow that reduces the cognitive load on developers as they dont have to manually remember that "Not to commit this file". This tool enforces it consistently across the team.
 
