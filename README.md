@@ -83,7 +83,7 @@ This hook can be copied into any Git repository in seconds in your system.
 
 → Steps Required:
 
-1. Open [VS Code](https://code.visualstudio.com/) or System Terminal type ```git clone https://github.com/Abhishek-Satyarum/Git_Security```
+1. Open [VS Code](https://code.visualstudio.com/) or System Terminal type ```git clone https://github.com/Abhishek-Satyarum/Git_Secret_Prevention```
 2. Then type ```cd Git_Security```
 3. And lastly `cp hooks/pre-commit .git/hooks/`
 
