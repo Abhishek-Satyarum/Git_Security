@@ -1,4 +1,4 @@
-<h1><b>Git Secret Prevention(GSP)</b></h1>
+<h1><b>🔐 Git Secret Prevention(GSP)</b></h1>
 
 Git Secret Prevention(GSP) is a pre-commit security gate that prevents developers from accidentally pushing API keys, tokens, and passwords to Git repositories.
 
@@ -19,7 +19,7 @@ It has smart decision making program which blocks and warns the user about the A
 
 <br>
 
-<h1><b>Solution</b></h1>
+<h1><b>🎯 Solution</b></h1>
 
 
 - Catching secrets before they enter the repository is the only reliable way to ensure they never appear in history, never replicate to other clones, and never reach external scanners.
