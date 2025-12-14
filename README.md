@@ -19,11 +19,6 @@ Libraries used are:
 - [PyFiglet](https://pypi.org/project/pyfiglet/)
 - [re (RegEx)](https://docs.python.org/3/library/re.html)
 
-
-We detect secrets independent of language syntax which means we support any programming language available.
-
-GSP is **lightweighted, fast, developer-friendly, and integrates directly into existing Git workflows** without requiring cloud services or dashboards.
-
 **IDEA**: ` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at commit time `
 
 <br>
@@ -48,7 +43,9 @@ GSP is **lightweighted, fast, developer-friendly, and integrates directly into e
 
 - GSP shifts security from reactive firefighting (rotate keys, investigate logs, notify users) to proactive hygiene that quietly protects every commit, every day, with almost no friction.
 
-- Also the scanner supports multiple file types by checking staged file extensions using tuple-based matching.
+- Also the scanner supports multiple file types by checking staged file extensions using tuple-based matching. We detect secrets independent of language syntax which means we support any programming language available.
+
+- GSP is **lightweighted, fast, developer-friendly, and integrates directly into existing Git workflows** without requiring cloud services or dashboards.
 
 <br>
 
@@ -76,7 +73,7 @@ GSP is **lightweighted, fast, developer-friendly, and integrates directly into e
 
 - Also our tool blocks commits when secrets are detected. If a developer intentionally wants to proceed, Git provides a secure override using --no-verify, ensuring accountability.
 
-- Our tool scans comments as well, because commented secrets are still leaked in Git history.
+- GSP scans comments as well, because commented secrets are still leaked in Git history.
 
 <br>
 
