@@ -60,7 +60,7 @@ Steps Required:
 
 1. Open [VS Code](https://code.visualstudio.com/) or System Terminal type ```git clone https://github.com/Abhishek-Satyarum/Git_Security```
 2. Then type ```cd Git_Security```
-3. And lastly ```cp hooks/pre-commit .git/hooks/```
+3. And lastly `cp hooks/pre-commit .git/hooks/`
 
 <br>
 
