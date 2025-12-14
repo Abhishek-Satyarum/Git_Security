@@ -15,10 +15,17 @@ CLI for this tool is fantastic mainly because it fits naturally into how Git and
 
 Libraries used are:
 
-- 
+- Pathlib
+- PyFiglet
 
 
+Also the scanner supports multiple file types by checking staged file extensions using tuple-based matching.
 
+We detect secrets independent of language syntax which means we support any programming language available.
+
+GSP is lightweighted, fast, developer-friendly, and integrates directly into existing Git workflows without requiring cloud services or dashboards.
+
+` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at commit time `
 
 
 
