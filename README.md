@@ -59,4 +59,4 @@ It has smart decision making program which blocks and warns the user about the A
 
 "https://github.com/user-attachments/assets/2f62af67-5c1a-4686-b782-169b205a74dd"
 
-<video src="[https://github.com/Abhishek-Satyarum/Git_Secret_Prevention/blob/main/docs/Video%20Proof%20(2).gif]" controls width="100%"></video>
+<video src="[https://github.com/Abhishek-Satyarum/Git_Secret_Prevention/blob/main/docs/Video%20Proof%20(2).gif]" controls width="100%">Hello</video>
