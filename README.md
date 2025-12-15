@@ -53,11 +53,11 @@ This hook can be copied into any Git repository in seconds in your system.
 
 - Catching secrets before they enter the repository is the only reliable way to ensure they never appear in history, never replicate to other clones, and never reach external scanners.
 
-- A pre‑commit check becomes a small safety net that runs in milliseconds on the developer’s machine, turning an easy human mistake (copy‑pasting a key during debugging) into a harmless, fixable warning.
+- A **pre‑commit check** becomes a small safety net that runs in milliseconds on the developer’s machine, turning an easy human mistake (copy‑pasting a key during debugging) into a harmless, fixable warning.
 
-- GSP shifts security from reactive firefighting (rotate keys, investigate logs, notify users) to proactive hygiene that quietly protects every commit, every day, with almost no friction.
+- GSP shifts security from **reactive firefighting** (rotate keys, investigate logs, notify users) to **proactive hygiene** that quietly protects every commit, every day, with almost no friction.
 
-- Also the scanner supports multiple file types by checking staged file extensions using tuple-based matching. We detect secrets independent of language syntax which means we support any programming language available.
+- Also the scanner supports multiple file types by checking staged file extensions using tuple-based matching. We detect secrets independent of language syntax which means we support any **programming language** available.
 
 - GSP is **lightweighted, fast, developer-friendly, and integrates directly into existing Git workflows** without requiring cloud services or dashboards.
 
@@ -87,7 +87,7 @@ This hook can be copied into any Git repository in seconds in your system.
 
 - Also our tool blocks commits when secrets are detected. If a developer intentionally wants to proceed, Git provides a secure override using --no-verify, ensuring accountability.
 
-- GSP scans comments as well, because commented secrets are still leaked in Git history.
+- GSP scans comments as well, because **commented secrets** are still leaked in Git history.
 
 <br>
 
@@ -96,9 +96,6 @@ This hook can be copied into any Git repository in seconds in your system.
 <br>
 
 ![Demo](https://github.com/Abhishek-Satyarum/Git_Secret_Prevention/blob/main/docs/Video%20Proof%20(2).gif)
-
-
-
 
 <h1 align="center"><b>Thank You</b></h1>
 
