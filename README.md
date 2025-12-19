@@ -35,6 +35,9 @@ Libraries used are:
 
 **IDEA**: ` Python + Git Hooks + Regex + JSON = Real-time secret leak prevention at commit time `
 
+<img src="docs/GSP.png" width="40">
+
+
 <br>
 
 ## 🤔 Why It Matters?
