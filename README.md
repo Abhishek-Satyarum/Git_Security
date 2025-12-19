@@ -19,8 +19,6 @@ Types of **Secret Patterns** it detects are:
 9. SendGrid API Key
 10. Hardcoded Passwords
 
-<br>
-
 This secrets are blocked completely with the help of GSP and make the lives easy for our developers. 
 
 <br>
