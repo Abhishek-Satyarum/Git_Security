@@ -21,6 +21,10 @@ Types of **Secret Patterns** it detects are:
 
 <br>
 
+This secrets are blocked completely with the help of GSP and make the lives easy for our developers. 
+
+<br>
+
 ## 😤 Technologies
 
 **BackEnd**: [Python](https://www.python.org/), Json
